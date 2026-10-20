@@ -12,6 +12,6 @@ test('Home page is opened and Welcome message is displayed 2', async ({page}) =>
   await expect(page.locator('.title')).toHaveText('Welcome to Petclinic')
 });
 
-test('Home11 page is opened and Welcome message is displayed 3', async ({page}) => {
+test('Home114 page is opened and Welcome message is displayed 3', async ({page}) => {
   await expect(page.locator('.title')).toHaveText('Welcome to Petclinic')
 }  )
