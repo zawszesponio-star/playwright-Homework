@@ -64,5 +64,6 @@ test('Playing with cat', async ({page}) => {
   await expect(rabbitRow.getByRole('textbox')).toHaveValue(CatInput);
 
   await expect(page.locator('input[name="pettype_name"]').nth(0)).toHaveValue(CatInput);
+  
 
 });
